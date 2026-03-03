@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 640" width="820" height="640">
+  <defs>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="820" height="640" rx="12" fill="#0d1117"/>
+
+  <!-- Title -->
+  <text x="410" y="38" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" letter-spacing="0.05em">HOW AI CHANGES EACH DEBT QUADRANT</text>
+
+  <!-- Axis labels -->
+  <text x="270" y="75" text-anchor="middle" fill="#00ff82" font-family="system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.08em" filter="url(#glow2)">DELIBERATE</text>
+  <text x="580" y="75" text-anchor="middle" fill="#00ff82" font-family="system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.08em" filter="url(#glow2)">INADVERTENT</text>
+  <text x="52" y="235" text-anchor="middle" fill="#00ff82" font-family="system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.08em" transform="rotate(-90 52 235)" filter="url(#glow2)">RECKLESS</text>
+  <text x="52" y="435" text-anchor="middle" fill="#00ff82" font-family="system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.08em" transform="rotate(-90 52 435)" filter="url(#glow2)">PRUDENT</text>
+
+  <!-- Grid -->
+  <line x1="100" y1="90" x2="100" y2="530" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="100" y1="90" x2="750" y2="90" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="750" y1="90" x2="750" y2="530" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="100" y1="530" x2="750" y2="530" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="425" y1="90" x2="425" y2="530" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <line x1="100" y1="310" x2="750" y2="310" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+
+  <!-- ═══ TOP-LEFT: Reckless-Deliberate ═══ -->
+  <rect x="101" y="91" width="323" height="218" fill="rgba(255,60,60,0.06)"/>
+  <text x="262" y="120" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-family="system-ui, sans-serif" font-size="10" letter-spacing="0.04em">RECKLESS — DELIBERATE</text>
+  <text x="262" y="152" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-family="Georgia, serif" font-size="13" font-style="italic">"We don't have time for design"</text>
+
+  <!-- AI impact -->
+  <text x="148" y="185" fill="rgba(255,180,50,0.85)" font-family="system-ui, sans-serif" font-size="11" font-weight="500">AI amplifies the temptation for shortcuts</text>
+  <text x="148" y="210" fill="rgba(255,255,255,0.4)" font-family="system-ui, sans-serif" font-size="10">Code generation is instant,</text>
+  <text x="148" y="226" fill="rgba(255,255,255,0.4)" font-family="system-ui, sans-serif" font-size="10">so "why invest in architecture?"</text>
+
+  <!-- Risk indicator -->
+  <rect x="116" y="252" width="293" height="38" rx="4" fill="rgba(255,80,80,0.12)" stroke="rgba(255,80,80,0.25)" stroke-width="1"/>
+  <text x="262" y="268" text-anchor="middle" fill="rgba(255,120,120,0.9)" font-family="system-ui, sans-serif" font-size="10" font-weight="500">▲ RISK INCREASES</text>
+  <text x="262" y="283" text-anchor="middle" fill="rgba(255,120,120,0.7)" font-family="system-ui, sans-serif" font-size="9">more code = more shortcuts</text>
+
+  <!-- ═══ TOP-RIGHT: Reckless-Inadvertent ═══ -->
+  <rect x="426" y="91" width="323" height="218" fill="rgba(255,60,60,0.04)"/>
+  <text x="588" y="120" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-family="system-ui, sans-serif" font-size="10" letter-spacing="0.04em">RECKLESS — INADVERTENT</text>
+  <text x="588" y="152" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-family="Georgia, serif" font-size="13" font-style="italic">"What's layering?"</text>
+
+  <!-- AI impact -->
+  <text x="462" y="185" fill="rgba(255,80,80,0.85)" font-family="system-ui, sans-serif" font-size="11" font-weight="500">AI masks lack of competence</text>
+  <text x="462" y="210" fill="rgba(255,255,255,0.4)" font-family="system-ui, sans-serif" font-size="10">Code looks professional, but the dev</text>
+  <text x="462" y="226" fill="rgba(255,255,255,0.4)" font-family="system-ui, sans-serif" font-size="10">can't evaluate its quality</text>
+
+  <!-- Risk indicator -->
+  <rect x="441" y="252" width="293" height="38" rx="4" fill="rgba(255,40,40,0.15)" stroke="rgba(255,40,40,0.3)" stroke-width="1"/>
+  <text x="588" y="268" text-anchor="middle" fill="rgba(255,100,100,0.95)" font-family="system-ui, sans-serif" font-size="10" font-weight="500">▲▲ HIGHEST RISK</text>
+  <text x="588" y="283" text-anchor="middle" fill="rgba(255,100,100,0.7)" font-family="system-ui, sans-serif" font-size="9">illusion of competence</text>
+
+  <!-- ═══ BOTTOM-LEFT: Prudent-Deliberate ═══ -->
+  <rect x="101" y="311" width="323" height="218" fill="rgba(0,255,130,0.06)"/>
+  <text x="262" y="340" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-family="system-ui, sans-serif" font-size="10" letter-spacing="0.04em">PRUDENT — DELIBERATE</text>
+  <text x="262" y="372" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-family="Georgia, serif" font-size="13" font-style="italic">"We must ship now"</text>
+
+  <!-- AI impact -->
+  <text x="148" y="405" fill="rgba(255,220,50,0.85)" font-family="system-ui, sans-serif" font-size="11" font-weight="500">AI makes conscious tradeoffs harder</text>
+  <text x="148" y="430" fill="rgba(255,255,255,0.4)" font-family="system-ui, sans-serif" font-size="10">When an agent generates code, who decides</text>
+  <text x="148" y="446" fill="rgba(255,255,255,0.4)" font-family="system-ui, sans-serif" font-size="10">on the tradeoff? Who plans repayment?</text>
+
+  <!-- Indicator -->
+  <rect x="116" y="466" width="293" height="38" rx="4" fill="rgba(255,220,50,0.08)" stroke="rgba(255,220,50,0.2)" stroke-width="1"/>
+  <text x="262" y="482" text-anchor="middle" fill="rgba(255,220,100,0.85)" font-family="system-ui, sans-serif" font-size="10" font-weight="500">◆ REQUIRES DISCIPLINE</text>
+  <text x="262" y="497" text-anchor="middle" fill="rgba(255,220,100,0.6)" font-family="system-ui, sans-serif" font-size="9">ADRs, code review, architecture</text>
+
+  <!-- ═══ BOTTOM-RIGHT: Prudent-Inadvertent ═══ -->
+  <rect x="426" y="311" width="323" height="218" fill="rgba(0,255,130,0.03)"/>
+  <text x="588" y="340" text-anchor="middle" fill="rgba(255,255,255,0.35)" font-family="system-ui, sans-serif" font-size="10" letter-spacing="0.04em">PRUDENT — INADVERTENT</text>
+  <text x="588" y="372" text-anchor="middle" fill="rgba(255,255,255,0.55)" font-family="Georgia, serif" font-size="13" font-style="italic">"Now we know how we should..."</text>
+
+  <!-- AI impact -->
+  <text x="462" y="405" fill="rgba(255,140,50,0.85)" font-family="system-ui, sans-serif" font-size="11" font-weight="500">AI generates debt immediately</text>
+  <text x="462" y="430" fill="rgba(255,255,255,0.4)" font-family="system-ui, sans-serif" font-size="10">Agent has no deep domain understanding</text>
+  <text x="462" y="446" fill="rgba(255,255,255,0.4)" font-family="system-ui, sans-serif" font-size="10">— code is misaligned from day 1</text>
+
+  <!-- Indicator -->
+  <rect x="441" y="466" width="293" height="38" rx="4" fill="rgba(255,140,50,0.1)" stroke="rgba(255,140,50,0.25)" stroke-width="1"/>
+  <text x="588" y="482" text-anchor="middle" fill="rgba(255,160,80,0.9)" font-family="system-ui, sans-serif" font-size="10" font-weight="500">▲ NEW DYNAMIC</text>
+  <text x="588" y="497" text-anchor="middle" fill="rgba(255,160,80,0.6)" font-family="system-ui, sans-serif" font-size="9">debt without a learning phase</text>
+
+  <!-- Legend -->
+  <rect x="100" y="550" width="650" height="62" rx="8" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="125" y="572" fill="rgba(255,255,255,0.5)" font-family="system-ui, sans-serif" font-size="10.5">KEY OBSERVATION:</text>
+  <text x="125" y="590" fill="rgba(255,255,255,0.4)" font-family="system-ui, sans-serif" font-size="10">AI doesn't create a new type of debt — but it changes the dynamics, scale</text>
+  <text x="125" y="605" fill="rgba(255,255,255,0.4)" font-family="system-ui, sans-serif" font-size="10">and visibility of each existing type. The tool amplifies what we already have.</text>
+
+  <!-- Source -->
+  <text x="750" y="634" text-anchor="end" fill="rgba(255,255,255,0.2)" font-family="system-ui, sans-serif" font-size="9">beyondthecode.dev</text>
+</svg>
