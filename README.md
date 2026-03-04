@@ -1,4 +1,4 @@
-# Beyond the Code
+# Code meets culture
 
 A blog about software architecture, culture and the evolution of software.
 

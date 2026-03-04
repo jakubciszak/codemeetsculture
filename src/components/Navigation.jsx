@@ -6,7 +6,7 @@ export default function Navigation() {
 
   return (
     <nav className="nav">
-      <Link to="/" className="nav-logo">Beyond the Code</Link>
+      <Link to="/" className="nav-logo">Code meets culture</Link>
       <div className="nav-right">
         <ul className="nav-links">
           <li><Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link></li>

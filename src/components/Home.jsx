@@ -563,7 +563,7 @@ export default function Home() {
 
       {/* Hero title */}
       <div className="hero">
-        <h1 className="title">Beyond the Code</h1>
+        <h1 className="title">Code meets culture</h1>
       </div>
 
       {/* Play button */}
@@ -623,7 +623,7 @@ export default function Home() {
 
       {/* Final title */}
       <div className="final" id="final">
-        <span className="title-end">Beyond the Code</span>
+        <span className="title-end">Code meets culture</span>
       </div>
 
       {/* Quotes carousel */}

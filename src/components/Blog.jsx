@@ -10,7 +10,7 @@ export default function Blog() {
   const [activeTags, setActiveTags] = useState(new Set());
 
   useEffect(() => {
-    document.title = 'Blog — Beyond the Code';
+    document.title = 'Blog — Code meets culture';
   }, []);
 
   const { posts, allTags } = postsData;
